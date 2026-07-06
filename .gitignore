@@ -1,0 +1,23 @@
+.DS_Store
+**/.DS_Store
+
+# Keep Neovim in its own repository and track it from here as a gitlink.
+nvim/.git/
+
+# Generated dependency/vendor directories
+opencode/node_modules/
+
+# Auth, tokens, databases, and runtime state
+github-copilot/
+raycast/
+qBittorrent/
+
+# Logs and volatile app state
+mole/*.log
+flutter/tool_state
+Autodesk/
+
+# Local editor/runtime files
+*.log
+*.tmp
+*.swp

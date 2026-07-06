@@ -1,0 +1,60 @@
+# --- Fonts ---
+# Your preferred font.
+font-family = "Iosevka Nerd Font Propo"
+font-size = 22 
+# Enable ligatures (e.g., => turns into an arrow)
+font-feature = calt
+# 2025 Standard for high-DPI displays
+window-colorspace = "display-p3"
+
+# --- Theming ---
+theme = "catppuccin-mocha"
+# You had opacity at 1.0 (solid). I kept this, but if you want 
+# the modern blur look, set this to 0.95 and add `background-blur-radius = 20`
+background-opacity = 1
+
+#cursor settings
+cursor-style = underline
+shell-integration-features = no-cursor
+#cursor-style-blink = true
+
+# Kept your transparent titlebar preference, but "hidden" is often cleaner for Neovim
+macos-titlebar-style = transparent 
+window-decoration = client
+#icons
+macos-custom-icon = /Users/henryjaiyeoba/.config/ghostty/icons/ghostty-catppuccin-mocha.icns
+macos-icon = custom
+# --- Window Layout ---
+# Padding makes Neovim look like a GUI app rather than a terminal
+window-padding-x = 2
+window-padding-y = 0,2
+# Start maximized (optional, great for power users)
+# maximize = true
+
+
+# --- Neovim / Power User Specifics ---
+# CRITICAL for Neovim: This allows Option+Key to work as Alt+Key on macOS.
+# Without this, mappings like <A-j> or <A-k> will fail.
+macos-option-as-alt = true
+
+# Copy automatically when you select text (from your config)
+copy-on-select = clipboard
+# Hide mouse immediately when typing to avoid distraction
+mouse-hide-while-typing = true
+# hide-mouse-when-typing = true
+# --- Shell Integration ---
+# Ensure shell integration is enabled for features like auto-injecting
+shell-integration = zsh
+# confirm-close = false
+#
+# scrollback-lines = 10000
+# copy-on-select = true
+# mouse-hide-while-typing = true
+#
+# --- macOS niceties ---
+# option-as-alt = left
+macos-window-shadow = true
+
+# --- tmux-friendly ---
+# Prevent terminal from messing with tmux colors
+term = xterm-256color
