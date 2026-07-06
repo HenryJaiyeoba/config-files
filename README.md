@@ -10,6 +10,7 @@ Personal config files for the tools I use day to day.
 - `neofetch/` - Neofetch display config.
 - `neovide/` - Neovide GUI config.
 - `opencode/` - Opencode config.
+- `tmux/` - Tmux config, symlinked from `~/.tmux.conf`.
 
 ## Tracked Separately
 
@@ -27,6 +28,6 @@ Personal config files for the tools I use day to day.
 
 ```sh
 git status
-git add aerospace ghostty gh neofetch neovide opencode README.md .gitignore .gitmodules nvim
+git add aerospace ghostty gh neofetch neovide opencode tmux README.md .gitignore .gitmodules nvim
 git commit -m "Update config files"
 ```
