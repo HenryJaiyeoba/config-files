@@ -11,6 +11,7 @@ Personal config files for the tools I use day to day.
 - `neovide/` - Neovide GUI config.
 - `opencode/` - Opencode config.
 - `tmux/` - Tmux config, symlinked from `~/.tmux.conf`.
+- `zsh/` - Powerlevel10k prompt config, sourced from `~/.zshrc`.
 
 ## Tracked Separately
 

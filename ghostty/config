@@ -1,7 +1,7 @@
 # --- Fonts ---
 # Your preferred font.
 font-family = "Iosevka Nerd Font Propo"
-font-size = 22 
+font-size = 20
 # Enable ligatures (e.g., => turns into an arrow)
 font-feature = calt
 # 2025 Standard for high-DPI displays
@@ -9,25 +9,25 @@ window-colorspace = "display-p3"
 
 # --- Theming ---
 theme = "catppuccin-mocha"
-# You had opacity at 1.0 (solid). I kept this, but if you want 
+# You had opacity at 1.0 (solid). I kept this, but if you want
 # the modern blur look, set this to 0.95 and add `background-blur-radius = 20`
 background-opacity = 1
 
 #cursor settings
-cursor-style = underline
+cursor-style = bar
 shell-integration-features = no-cursor
 #cursor-style-blink = true
 
 # Kept your transparent titlebar preference, but "hidden" is often cleaner for Neovim
-macos-titlebar-style = transparent 
-window-decoration = client
+macos-titlebar-style = hidden
+# window-decoration = client
 #icons
 macos-custom-icon = /Users/henryjaiyeoba/.config/ghostty/icons/ghostty-catppuccin-mocha.icns
 macos-icon = custom
 # --- Window Layout ---
 # Padding makes Neovim look like a GUI app rather than a terminal
-window-padding-x = 2
-window-padding-y = 0,2
+window-padding-x = 10
+window-padding-y = 10
 # Start maximized (optional, great for power users)
 # maximize = true
 
@@ -51,6 +51,9 @@ shell-integration = zsh
 # copy-on-select = true
 # mouse-hide-while-typing = true
 #
+window-vsync = true
+custom-shader-animation = true
+custom-shader = ./shaders/cursor_smear.glsl
 # --- macOS niceties ---
 # option-as-alt = left
 macos-window-shadow = true
